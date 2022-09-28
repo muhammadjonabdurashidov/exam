@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1410px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  margin-left: 15px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section {
+  background-color: #4499FE;
+  height: 1024px;
+}
+
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0;
+  padding-top: 23px;
+}
+
+.form {
+  position: relative;
+  top: 44px;
+  left: 141px;
+  right: 156px;
+  bottom: 47px;
+}
+
+.box {
+  display: flex;
+}
+
+
+.formbox {
+ display: flex; 
+}
+
+
+.inpel {
+  background: #E9E9E9;
+  border-radius: 10px;
+  width: 297px;
+  height: 55px;
+  border: none;
+  padding-left: 17px;
+}
+
+
+.inpeltwo {
+  background: #E9E9E9;
+  border-radius: 10px;
+  width: 297px;
+  height: 55px;
+  margin-left: 28px;
+  border: none;
+  padding-left: 17px;
+}
+
+
+
+.inpelthree {
+  background: #E9E9E9;
+  border-radius: 10px;
+  width: 297px;
+  height: 55px;
+  margin-left: 28px;
+  border: none;
+  padding-left: 17px;
+}
+
+
+.inpelbtn {
+  cursor: pointer;
+  background-color: #1DE755;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  width: 102px;
+  height: 41px;
+  border: none;
+  margin-left: 92px;
+  position: relative;
+  top: 50px;
+}
+
+.inpelbtn:hover {
+  background-color: darkolivegreen;
+  transition: 1.2s;
+}
+
+
+.inpelfour {
+  background: #E9E9E9;
+  border-radius: 10px;
+  width: 297px;
+  height: 55px;
+  border: none;
+  margin-top: 32px;
+  padding-left: 17px;
+}
+
+
+.inpelfive {
+  background: #E9E9E9;
+  border-radius: 10px;
+  width: 622px;
+  height: 55px;
+  margin-left: 28px;
+  border: none;
+  margin-top: 32px;
+  padding-left: 17px;
+}
+
+
+.wrapper {
+  display: flex;
+  width: 1202px;
+  height: 220px;
+  background-color: #C9F4A7;
+  border-radius: 25px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper > img {
+  margin-top: 26px;
+  margin-left: 31px;
+  margin-right: 42px;
+  width: 252px;
+  height: 168px;
+}
+
+.boxs {
+  margin-top: 37px;
+}
+
+.wrapper__text {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 17px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.wrapper__texttwo {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 17px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.wrapper__textthree {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 17px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.wrapper__textfour {
+  display: flex;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin: 0;
+}
+
+.spntwo {
+  margin: 0;
+}
+
+.boxs > p > span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-left: 7px;
+}
+
+.wrappertwo {
+  display: none;
+}
+
+.box__btn {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: absolute;
+  left: 1150px;
+}
+
+.btn__delete {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  background-color: #FB2020;
+  color: #fff;
+  border: none;
+  width: 180px;
+  height: 43px;
+  margin-top: 25px;
+}
+
+.btn__delete:hover {
+  color: #FB2020;
+  background-color: #fff;
+  transition: 1.2s;
+}
+
+.btn__date {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  background-color: #F5D00D;
+  color: #fff;
+  border: none;
+  width: 180px;
+  height: 43px;
+}
+
+.btn__turnoff {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  background-color: #15E04E;
+  color: #fff;
+  border: none;
+  width: 180px;
+  height: 43px;
+}
+
+.btn__turnoff:hover {
+  color: #15E04E;
+ background-color: #fff;
+ transition: 1.2s;
+}
+
+.spnfour {
+  width: 600px;
+  overflow: hidden;
+}
+
+.spnstyle {
+  text-decoration-color: red;
+  text-decoration: line-through;
+}
