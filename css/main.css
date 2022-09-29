@@ -278,3 +278,9 @@
   text-decoration-color: red;
   text-decoration: line-through;
 }
+
+
+.wrapcolumn {
+  display: flex;
+}
+

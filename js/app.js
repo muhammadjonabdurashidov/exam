@@ -19,6 +19,7 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
   
   wrapperEl.style.display = "flex";
+  
   spanEl.innerText = inponeEl.value;
   spntwoEl.innerText = inptwoEl.value;
   spnthreeEl.innerText = inpthreeEl.value;
